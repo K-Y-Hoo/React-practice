@@ -4,7 +4,6 @@ import ExpenseItem from './ExpenseItem';
 import { MdDelete } from 'react-icons/md';
 export class ExpenseList extends Component {
   render() {
-    console.log(this.props.initialExpenses)
     return (
       <React.Fragment>
         <ul className='list'>
@@ -13,6 +12,7 @@ export class ExpenseList extends Component {
               <ExpenseItem 
                 expense={expense} 
                 key={expense.id}
+                handleDelete = {this.props.handleDelete}
               />
             )
           })}
