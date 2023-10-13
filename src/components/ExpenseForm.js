@@ -14,7 +14,7 @@ const ExpenseForm = ({handleCharge, charge, handleAmount, amount, handleSubmit, 
               id="charge" 
               name="charge" 
               value={charge}
-              placeholder='예) 렌트비'
+              placeholder='예) 숙박비'
               onChange={handleCharge}
             />
         </div>
@@ -27,7 +27,7 @@ const ExpenseForm = ({handleCharge, charge, handleAmount, amount, handleSubmit, 
               id="amount" 
               name="amount" 
               value={amount}
-              placeholder='예) 100'
+              placeholder='예) 100000'
               onChange={handleAmount}
             />
         </div>
