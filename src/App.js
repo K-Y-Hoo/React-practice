@@ -59,7 +59,7 @@ const App = () => {
       setCharge("");
       setAmount(0);
     } else {
-      handleAlert({type: "danger", text: "charge는 빈 값일 수 없으면 amount는 0보다 커야 합니다."})
+      handleAlert({type: "danger", text: "지출 항목은 빈 값일 수 없으며 비용는 0보다 커야 합니다."})
     }
   }
 
