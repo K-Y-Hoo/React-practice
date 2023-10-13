@@ -21,9 +21,9 @@ const App = () => {
   }
 
   const [expenses, setExpenses] = useState([
-    {id: 1, charge: "렌트비", amount: 1600},
-    {id: 2, charge: "교통비", amount: 400},
-    {id: 3, charge: "식비", amount: 1200},
+    {id: 1, charge: "렌트비", amount: 50000},
+    {id: 2, charge: "커피값", amount: 4500},
+    {id: 3, charge: "식비", amount: 20000},
   ])
 
   const handleAlert = ({type, text}) => {
@@ -59,7 +59,7 @@ const App = () => {
       setCharge("");
       setAmount(0);
     } else {
-      handleAlert({type: "danger", text: "지출 항목은 빈 값일 수 없으며 비용는 0보다 커야 합니다."})
+      handleAlert({type: "danger", text: "지출 항목과 비용은 빈 값일 수 없으며 비용는 0보다 커야 합니다."})
     }
   }
 
