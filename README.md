@@ -14,7 +14,7 @@
 
 ## 🔥 Project!
 <p align="middle">
-  <img src="./src/images/image1.png"/>
+  <img src="./src/images/image2.png"/>
 
 <p align="middle">
   <a href="https://K-Y-Hoo.github.io/React-practice">🖥️ 데모 링크</a>
